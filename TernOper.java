@@ -10,6 +10,15 @@ public class TernOper {
         int money = age > 30 ? 100 : 50;
         System.out.println(money);
 
+        double m =s.nextDouble();
+        double a = 1.000001;
+        double b = 1.000002;
+// для вычисления модуля числа — Math.abs()
+        if ( Math.abs(b - a) < m )
+            System.out.println("Числа равны");
+        else
+            System.out.println("Числа не равны");
+
 
     }
 }
